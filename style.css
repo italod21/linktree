@@ -42,26 +42,34 @@ body {
     width: 40%;
     border-radius: 50%; 
     aspect-ratio: 1 / 1;
-    object-fit: cover;
     overflow: hidden;
     position: relative;
     margin-bottom: 20px;
-    border: 8px solid white ;
+    border: 10px solid white ;
 }
 
 .photo img {
     width: 160px;
+    object-fit: cover;
 }
 
 h3 {
     margin: 5px 0 30px;
 }
 
-button {
+h1, h3 {
+    color: rgb(71, 71, 71);
+}
+
+a {
     margin-bottom: 20px;
-    width: 300px;
-    height: 50px;
+    background-color:rgb(87, 141, 174);
     font-size: 16px;
+    padding: 15px;
+    width: 250px;
+    text-decoration: none;
+    text-align: center;
     border-radius: 10px;
     border: none;
+    color: white;
 }
